@@ -29,4 +29,9 @@ let foo: undefined=undefined;
 let setir="men setir";
 // setir=true;
 // error berer yagny eger tipi beyan etmesende birinji sapar nahili tip dakylan bolsa shol tipde bp gidyar.
+let islendik: any = 'setir';
+islendik = true;
+islendik.toUpperCase();
+//  munda ts yalnyshlyk gorkezmez yone js yalnyshlyk dp berer
+console.log(islendik);
 ```
